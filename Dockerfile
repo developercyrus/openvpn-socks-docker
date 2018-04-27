@@ -46,7 +46,7 @@ RUN rm ovpn.zip
 #    && apt-get purge -y --auto-remove $DANTE_DEPS \
 #    && rm -rf /var/lib/apt/lists/*
 
-COPY sockd.sh /usr/local/bin/
+#COPY sockd.sh /usr/local/bin/
 COPY danted.conf /etc/
 EXPOSE 1080
 
